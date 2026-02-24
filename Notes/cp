@@ -5,3 +5,7 @@ this is actually for coping a file with different name.
   calvin@localhost:~/Documents/secret$ cp mySecretNote.txt copyFile.txt
 
   Noot : after cp we need to write our valid file then a space then write the new file name!
+
+We can also copy a file to another place 
+calvin@localhost:~/Documents/secret$ cp -R file1.txt /tmp/
+so this will copy the same txt file in tmp
