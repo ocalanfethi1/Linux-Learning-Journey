@@ -1,0 +1,7 @@
+cp
+
+this is actually for coping a file with different name.
+
+  calvin@localhost:~/Documents/secret$ cp mySecretNote.txt copyFile.txt
+
+  Noot : after cp we need to write our valid file then a space then write the new file name!
