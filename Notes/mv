@@ -1,0 +1,8 @@
+this is basically a move command
+
+calvin@localhost:~/Pictures$ ls
+image1.jped  image2.jped  image3.jped
+
+calvin@localhost:~/Pictures$ mv image1.jpeg /home/calvin/Desktop
+
+now image1.jpeg is in Desktop
