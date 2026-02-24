@@ -1,0 +1,8 @@
+mkdir
+this is exactly for creating a folder
+
+calvin@localhost:~/Documents/secret$ mkdir Secret1
+calvin@localhost:~/Documents/secret$ ls
+file1.txt   mySecretNote.txt   Secret1   secretnote.txt
+
+as we see our folder has been created!
