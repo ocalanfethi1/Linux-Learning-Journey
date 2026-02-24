@@ -1,1 +1,13 @@
+ 3- cd
+  - stands for change directory
+      root@localhost:/home/calvin# cd Desktop
+      root@localhost:/home/calvin/Desktop#
 
+      root@localhost:/home/calvin# cd ..
+      root@localhost:/home/#
+
+      root@localhost:/home/calvin# cd
+      root@localhost:~#
+
+      root@localhost:~# cd /home/calvin/pictures
+      root@localhost:/home/calvin/Pictures# 
