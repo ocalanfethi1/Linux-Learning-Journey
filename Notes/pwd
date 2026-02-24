@@ -1,4 +1,12 @@
- 1- pwd
+pwd
   - stands for print working directory, to know where are you like in which path
       root@localhost:/home/calvin# pwd
       /home/calvin
+
+      calvin@localhost:/opt$ pwd
+      /opt
+
+      calvin@localhost:~/Documents/secret$ pwd
+      /home/calvin/Document/secret
+
+     
