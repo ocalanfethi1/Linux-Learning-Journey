@@ -1,0 +1,15 @@
+touch
+
+To crate a file, the user can use touch in any place if there is permission for that.
+
+  calvin@localhost:~/Documents/secret$ touch mySecretNote.txt
+this command will create your folder 
+
+If the user put spaces like;
+
+  calvin@localhost:~/Documents/secret$ touch my Secret Note.txt
+the program will creat 3 files, so we have to be careful about it! 
+
+
+Not : touch is not using for creating folders!
+
