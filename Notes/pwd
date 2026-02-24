@@ -1,1 +1,4 @@
-
+ 1- pwd
+  - stands for print working directory, to know where are you like in which path
+      root@localhost:/home/calvin# pwd
+      /home/calvin
