@@ -1,4 +1,4 @@
- 3- cd
+cd
   - stands for change directory
       root@localhost:/home/calvin# cd Desktop
       root@localhost:/home/calvin/Desktop#
@@ -11,3 +11,4 @@
 
       root@localhost:~# cd /home/calvin/pictures
       root@localhost:/home/calvin/Pictures# 
+- if we type a wrond directory after cd the system will display an error message.
