@@ -1,5 +1,24 @@
-- ls
-  - stands for list
-      root@localhost:/home/calvin# ls
-      Desktop    Documents    Pictures    Music
-  - ls -l , ls -ltr those are for listing in more detail form 
+ls
+- it basically list all the folders, files, links of the directory the user is in 
+root@localhost:/home/calvin# ls
+Desktop  Pictures   Music  Videos  Config   
+
+
+ls -l
+- this is more detailed one, still same function but in more detail, like showing if the directory is file, link or folder
+root@localhost:/home/calvin# ls -l
+total 5
+drwxr-xr-x. 2 calvin calvin 6 Feb 23 13:48 Desktop
+drwxr-xr-x. 2 calvin calvin 6 Feb 23 13:48 Pictures
+drwxr-xr-x. 2 calvin calvin 6 Feb 23 13:48 Music
+drwxr-xr-x. 2 calvin calvin 6 Feb 23 13:48 Videos
+drwxr-xr-x. 2 calvin calvin 6 Feb 23 13:48 Config
+
+ls -ltr
+- this is used for listing all the document but in a specific order. the order is from oldest to newest
+
+ls -lt
+- this is used for listing too but the order is from the newest to the oldest
+
+
+
