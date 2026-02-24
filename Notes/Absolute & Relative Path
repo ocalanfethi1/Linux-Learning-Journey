@@ -1,0 +1,5 @@
+Absolute path always start with a "/" the path start from the root directory
+ root@localhost:~# cd /var/log/samba 
+
+Relative path doesn't begin with a "/" it access the documents relative to your current position
+root@localhost:/var/log# cd samba 
