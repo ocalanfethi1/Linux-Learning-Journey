@@ -1,1 +1,7 @@
+# what is root?
+- root is the most powerful account which has all access to all command and files
+    calvin@localhost:~$ su -
+    root@localhost:~# 
 
+    root@localhost:~# whoami
+    root
