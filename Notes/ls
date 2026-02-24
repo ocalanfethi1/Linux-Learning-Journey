@@ -1,1 +1,5 @@
-
+- ls
+  - stands for list
+      root@localhost:/home/calvin# ls
+      Desktop    Documents    Pictures    Music
+  - ls -l , ls -ltr those are for listing in more detail form 
