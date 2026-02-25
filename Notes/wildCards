@@ -1,0 +1,12 @@
+*  = represent zero or more characters
+? = represent a single character
+[] = represent a range of character
+
+calvin@localhost:~$ rm abs*
+this means remove everything start with abs
+
+calvin@localhost:~$ touch abs{1..9}
+this means create abs1, abs2, abc3 ..... abc9. it creates nine files
+
+calvin@localhost:~$ ls -l abs*
+this means i want to list everthing start with abc
