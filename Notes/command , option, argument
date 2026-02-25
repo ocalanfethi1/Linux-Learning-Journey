@@ -1,0 +1,11 @@
+  calvin@localhost:~$ ls -l file.txt
+
+here ls is a command ,  -l is an option and file.txt is an argument 
+option is important, we cant delete dolder just command with "rm" we need to add -R after the command then specify our folder which we want to remove
+
+
+to see which options we have basically we can write man and enter one command that we want to see it's options
+
+  
+    calvin@localhost:~$ man ls
+  
