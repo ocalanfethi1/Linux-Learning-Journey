@@ -1,0 +1,13 @@
+it gives information about the other commands
+
+whatis command
+command --help
+man command
+
+these three help us to know how is the command are we trying to run work.
+
+calvin@localhost:~$ whatis pwd
+
+calvin@localhost:~$ pwd --help
+
+calvin@localhost:~$ man pwd
