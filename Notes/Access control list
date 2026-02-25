@@ -1,0 +1,19 @@
+1- To add permission for user
+setfacl -m u:username:rwx /path/to/file
+
+2- To add permissions for group
+setfacl -m g:group:rw /path/to/file
+
+3- To allow all files or directories to inherit ACL entries from the directory it is within
+setfacl -Rm "entry" /path/to/dir
+
+4- To remove specify entry
+setfacl -x u:user /path/to/file
+
+4- To remove all entry
+setfacl -b /path/to/file
+
+
+not : if we run getfacl file
+it will display in detail about owner, group and other
+
