@@ -1,0 +1,13 @@
+when we run ls -l one of the result is
+
+-r--rw-rw-. 1 calvin calvin 22 Feb 25 13:02 abc1
+
+here calvin is the owner of the file, and we see another calvin next to calvin, so the secon calvin is 
+the group. only root can change the ownerships
+
+we use "chown" for owner
+"chown ownerName fileName"
+
+if i remove calvin as owner and make it root, then i can lose some permission, so i need to be root and do it.
+
+we use "chgrp" for the group
