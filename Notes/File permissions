@@ -1,0 +1,30 @@
+there are three types of permission 
+-r = read
+-w = write
+-x = execute
+
+each permission can be controlled at three levels
+-u = user
+-g = group
+-o = other
+
+file directory can be displayed by running ls -l command
+. -rwx(for user)rwx(for froup)rwx(for others)
+
+
+important! = we can change the permissions with the command "chmod"
+
+let's say we have a file named abc abd when we run ls -l abc;
+-rw-r--r--. 1 calvin calvin 0 Feb 25 12:15 abc
+
+so if we want group to not have write we need to remove write permission for group
+calvin@localhost:~$ chmod g-w abc
+
+if we want to remove read permission for everyone we run 
+calvin@localhost:~$ chmod a-r abc
+
+if we want other has the permission to read;
+calvin@localhost:~$ chmod o+r abc
+
+if there is a folder and i want everyone not to execute/enter the folder
+calvin@localhost:~$ chmod a-x folder
