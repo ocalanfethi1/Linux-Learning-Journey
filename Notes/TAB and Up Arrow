@@ -1,0 +1,8 @@
+hitting tab key completes the available commands, files or directories
+
+cd Des<TAB>
+
+hitting up arrow key on the keyboard returns the last command ran
+it brings all the command you ran
+
+important note : if we write a and TAB, the system gives me everything starts with a, because the system can't specify which "a..." do you want.
