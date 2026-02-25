@@ -28,3 +28,23 @@ calvin@localhost:~$ chmod o+r abc
 
 if there is a folder and i want everyone not to execute/enter the folder
 calvin@localhost:~$ chmod a-x folder
+
+!!!we can use numeric mode 
+0 = no permission
+1 = execute 
+2 = write
+3 = execute + write
+4 = read
+5 = read + execute
+6 = read + write
+7 = read + write + execute
+
+calvin@localhost:~$ chmod 764 abc
+-rwxrw-r--
+
+calvin@localhost:~$ chmod 000 abc
+---------
+
+calvin@localhost:~$ chmod 600 abc
+-rw-------
+
