@@ -10,3 +10,12 @@ this means create abs1, abs2, abc3 ..... abc9. it creates nine files
 
 calvin@localhost:~$ ls -l abs*
 this means i want to list everthing start with abc
+
+calvin@localhost:~$ ls -l *xyz
+list all the files that ends with xyz
+
+calvin@localhost:~$ ls -l ?bcd*
+list all the files no matter what is the first letter but after first latter bcd
+
+calvin@localhost:~$ rm *xy*
+it says remove every file that has x and y in it, x and y has to be together.
