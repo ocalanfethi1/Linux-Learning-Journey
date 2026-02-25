@@ -1,0 +1,5 @@
+locate 
+it is faster than find but it can be inaccurate
+after creating file or folder we need to run updatedb
+if we receive error message about updatedb we need to updatedb when we are a root
+
