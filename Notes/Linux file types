@@ -5,3 +5,14 @@
 "s" this means socket
 "p" this means named pipe
 "b" this means block device
+
+
+when we run ls -l we see like;
+
+calvin@localhost:~$ ls -l
+drwxr-xr-x. 2 calvin calvin 25 Feb 24 11:54 config
+drwxr-xr-x. 2 calvin calvin 6 Feb 24 11:54 Desktop
+drwxr-xr-x. 2 calvin calvin 25 Feb 24 11:54 Public
+drwxr-xr-x. 2 calvin calvin 6 Feb 24 11:54 Videos
+drwxr-xr-x. 2 calvin calvin 25 Feb 24 11:54 Pictures
+drwxr-xr-x. 2 calvin calvin 25 Feb 24 11:54 Documents
