@@ -1,0 +1,10 @@
+find
+
+to find your document path , this commend is very usefull
+
+calvin@localhost:~$ find . -name "image1.jpeg"
+./Desktop/image1.jpeg
+
+Not : after commad if there is no any result the user should use the command "updatedb"
+then run the find command again.
+
