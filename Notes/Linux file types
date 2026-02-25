@@ -1,0 +1,7 @@
+"-" this means regular file
+"d"  this means directory
+"l" this means link
+"c" this means special file
+"s" this means socket
+"p" this means named pipe
+"b" this means block device
