@@ -1,0 +1,31 @@
+3 ways to add text to a file
+
+1. vi
+2. Redirect command output > or >> 
+3. echo > or >> 
+
+using "echo"
+lets say we have a file named jerry
+calvin@localhost:~$ echo "Hi i am in the file jerry" > jerry
+so we can use "cat" to read inside the file
+calvin@localhost:~$ cat jerry
+
+Not: if we want to add another text in jerry this time we need to use double redirect sign >>
+otherwise -if we use one redirect sign- the text we added will be deleted and write my new text
+like single redirect sign overwrite 
+
+using "> or >>"
+lets say we have a file named keep.txt
+So here i can write my result of something in keep.txt
+calvin@localhost:~$ ls -ltr > keep.txt
+this means write my ls -ltr result inside the file named keep.txt
+like basically writing result in a file a choose 
+calvin@localhost:~$ date >> jerry
+it will write date inside jerry
+
+
+
+
+
+
+
