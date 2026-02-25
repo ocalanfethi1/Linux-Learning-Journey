@@ -1,0 +1,9 @@
+inode = pointer or number of a file on the hard dist
+soft link = link will be removed if file is removed or renamed
+hard link = deleting remaning or moving the original file will not affect the hard link
+
+commans 
+ln          = hard link
+ln -s       = soft link
+
+
