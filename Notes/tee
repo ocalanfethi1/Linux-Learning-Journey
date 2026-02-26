@@ -1,0 +1,23 @@
+"tee" command is used store and view at the same time. 
+the command is named after theT-splitter used in plumbing. it can be both displayed and saved at same time.
+
+  calvin@localhost:~$ echo "hello there" 
+this will only display the text
+
+  calvin@localhost:~$ echo "hello there" > mytext.txt
+this will write to mytext.txt file not displayin anything on the screen
+
+  calvin@localhost:~$ echo "hello there" | tee mytext.txt
+this will both dispay and write inside mytext.txt
+Note: after i try to write something again and use the exact command it will remove the old text and write the new one
+
+so, to prevent that we can use this;
+  calvin@localhost:~$ echo "hello there" | tee -a mytext.txt
+
+
+to see how many character we have in mytext.txt we can run;
+  calvin@localhost:~$ wc -c mytext.txt
+
+
+Not: with tee command we can create a file and write inside and display.
+calvin@localhost:~$ echo "hello there" | tee mytext.txt text.txt filetext.txt
