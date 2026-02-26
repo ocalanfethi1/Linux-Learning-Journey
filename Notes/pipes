@@ -1,0 +1,8 @@
+A pipe used by the shell to connect the output pf one command directly yo the input of another command.
+
+command1 [arg] | command1 [arg]
+
+"|" this is the symbol for pipe.
+
+calvin@localhost:~$ ls -l | more
+it gives one full page for listing
