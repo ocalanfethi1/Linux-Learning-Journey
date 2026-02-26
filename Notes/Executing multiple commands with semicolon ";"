@@ -1,0 +1,11 @@
+like basically 
+  ls ; pwd ; whoami
+
+each command work independently
+
+Not: if on of the command is broken or not working, it doesn't stop it. when it is broke the error message will diplay and mive to the next command.
+
+calvin@localhost:~$ ls ; fjfsalkfd ; echo "compleated"
+file.txt
+bash: fjfsalkfd: command not found...
+compleated
