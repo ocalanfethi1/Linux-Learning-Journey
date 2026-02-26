@@ -1,0 +1,18 @@
+. sort
+
+  -to sorts file in alphabetical order
+    calvin@localhost:~$ sort filename
+
+  -if you want to sort in reverse alphabetical order
+    calvin@localhost:~$ sort -r filename  
+  -if you want to sort by field number
+    calvin@localhost:~$ sort -k2 filename
+
+. uniq
+  -if there is a dublicate like, this command will not display it.
+  Not: always sort then uniq
+    calvin@localhost:~$ sort filename | uniq
+  -give me the uniq but show me how many of the document we have, to see that you can run
+    calvin@localhost:~$ sort file | uniq -c
+  -only show repeated line 
+    calvin@localhost:~$ sort file | uniq -d
