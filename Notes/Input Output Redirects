@@ -1,0 +1,21 @@
+there are three redirects in Linux
+1. standart input (stdin) : it has file desriptor number as 0
+2. standart output (stdout) : it has file desriptor number as 1
+3. standart error (stderr) : it has file desriptor number as 2
+
+
+1. output(stdout) -1
+by default when running a command its output goes to terminal
+the output of command can be routed to a file.
+ls -l > listings.txt
+if using the same file for additional output
+pwd >> listings.txt
+
+2. input(stdin) -0
+input is used when feeding file contents to a file
+cat < listings.txt
+
+3. Error(stderr) -2
+we can use redirects to route errors from the screen
+ls -l /root 2>errorFile
+telnet locakhost 2> errorfile
