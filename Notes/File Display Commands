@@ -1,0 +1,13 @@
+. cat
+. more
+. less
+. head
+. tail
+
+With All of them we can read inside files
+
+not : when we use head we can specify like head -2 mytx.txt
+basically we want to see the first two lines of mytx.txt
+
+Not: tail is also similar with head but when we command tail -2 mytx.txt
+this will bring the last two lines of mytx.txt
